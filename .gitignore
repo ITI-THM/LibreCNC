@@ -1,0 +1,7 @@
+docs/html
+grbl_ros/__pycache__
+__pycache__
+.DS_Store
+.kicad_prl
+fp-info-cache
+**backups/

@@ -1,0 +1,16 @@
+Type,Quantity,Footprint,Designators
+Screw Connector 4 Pol,4,"PhoenixContact_MC_1,5_4-G-5.08_1x04_P5.08mm_Horizontal","J1, J3, J5, J7, J24"
+Screw Connector 2 Pol,14,"PhoenixContact_MC_1,5_4-G-5.08_1x04_P5.08mm_Horizontal","J4, J9, J10, J11, J12, J13, J14, J16, J17, J18 J19, J20, J21, J22"
+Screw Connector 2 Pol Power,1,"PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal",J26
+Pinsocket 2x13,1,PinSocket_2x13_P2.54mm_Horizontal,J27
+Pinsocket 2x2,1,PinSocket_2x2_P2.54mm_Horizontal,J6
+Pinheader 2x6,1,PinHeader_2x06_P2.54mm_Vertical,J23
+Pinsocket 1x8,10,,"A1, A2, A3, A4, A5"
+Fuse Socket,1,Fuseholder_Littelfuse_100_series_5x20mm,F1
+Switch 2 Pin,12,SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm,"SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13, SW14, SW15"
+Switch 3 Pin,2,,"SW1, SW3"
+Resistor 1K,1,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,R3
+Resistor 5K,1,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,R2
+Resistor 10K,1,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,R1
+Transistor 2N3904,1,TO-92_Inline,Q1
+Capacitor 100µF,5,CP_Radial_D6.3mm_P2.50mm,"C1, C2, C3, C4, C5"
