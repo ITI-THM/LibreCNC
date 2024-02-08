@@ -603,9 +603,33 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1c53f166-c60c-4f5f-a417-c9e8e298660f)
   )
+  (text "Z" (at 81.28 81.28 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2c03fddf-dd15-44ef-8970-bc9049d44659)
+  )
   (text "spare" (at 87.63 160.02 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8d50a9ae-ecc5-4107-9d9a-9580dfb01707)
+  )
+  (text "Z" (at 81.28 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c460f702-6de5-4ca4-91e4-60592ca81ab0)
+  )
+  (text "Y\n" (at 81.28 78.74 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d57f13ef-2443-4467-8411-98395f714727)
+  )
+  (text "X" (at 81.28 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dbd4ecff-6c00-493c-8ab0-7ed866be041b)
+  )
+  (text "Y\n" (at 81.28 86.36 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid de2190e4-11fb-40b6-95e6-6a495e57a8f6)
+  )
+  (text "X" (at 81.28 76.2 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ecab58f9-1883-4578-9c2b-293aef8000b6)
   )
 
   (global_label "ENDSTOP_Z+" (shape input) (at 97.79 132.08 180) (fields_autoplaced)
@@ -995,7 +1019,7 @@
           (reference "#PWR027") (unit 1)
         )
       )
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "#PWR05") (unit 1)
         )
@@ -1028,7 +1052,7 @@
           (reference "SW19") (unit 1)
         )
       )
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "SW1") (unit 1)
         )
@@ -1087,7 +1111,7 @@
           (reference "J2") (unit 1)
         )
       )
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "J1") (unit 1)
         )
@@ -1111,7 +1135,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "H2") (unit 1)
         )
@@ -1141,7 +1165,7 @@
           (reference "#PWR029") (unit 1)
         )
       )
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "#PWR02") (unit 1)
         )
@@ -1165,7 +1189,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "H1") (unit 1)
         )
@@ -1195,7 +1219,7 @@
           (reference "#PWR028") (unit 1)
         )
       )
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "#PWR06") (unit 1)
         )
@@ -1220,15 +1244,15 @@
     )
     (pin "1" (uuid 6c4779e5-c209-4914-8ac7-d3e85d871fbf))
     (pin "2" (uuid b6f149f9-c587-440f-8ba0-dfa4c93e5f74))
-    (pin "3" (uuid b7184ce0-a454-4344-a945-69e8b5ac64a2))
-    (pin "4" (uuid a8ebb845-75f0-42b6-8e81-7e7e35163231))
+    (pin "3" (uuid b7184ce0-a454-4344-a945-69e8b5ac64a3))
+    (pin "4" (uuid a8ebb845-75f0-42b6-8e81-7e7e35163232))
     (instances
       (project "grbl-shield"
         (path "/77e90144-3b78-438e-a399-7be4aa2ac0a2"
           (reference "SW19") (unit 1)
         )
       )
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "SW3") (unit 1)
         )
@@ -1258,7 +1282,7 @@
           (reference "#PWR030") (unit 1)
         )
       )
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "#PWR03") (unit 1)
         )
@@ -1282,7 +1306,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "H4") (unit 1)
         )
@@ -1307,15 +1331,15 @@
     )
     (pin "1" (uuid 856ff311-e9df-41eb-a0b5-0b9dc9394059))
     (pin "2" (uuid b6e9ad65-2d42-4683-9ff9-3e268329976b))
-    (pin "3" (uuid b7184ce0-a454-4344-a945-69e8b5ac64a2))
-    (pin "4" (uuid a8ebb845-75f0-42b6-8e81-7e7e35163231))
+    (pin "3" (uuid b7184ce0-a454-4344-a945-69e8b5ac64a4))
+    (pin "4" (uuid a8ebb845-75f0-42b6-8e81-7e7e35163233))
     (instances
       (project "grbl-shield"
         (path "/77e90144-3b78-438e-a399-7be4aa2ac0a2"
           (reference "SW19") (unit 1)
         )
       )
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "SW4") (unit 1)
         )
@@ -1340,7 +1364,7 @@
     )
     (pin "1" (uuid 45db08bc-3a4d-4fc0-aa34-fca19d8a10e0))
     (instances
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "#PWR01") (unit 1)
         )
@@ -1396,7 +1420,7 @@
     (pin "8" (uuid 4e970dcb-71ef-471c-a304-80c8278d9e11))
     (pin "9" (uuid b90b8469-48cf-440b-988c-5fbd796abfab))
     (instances
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "A1") (unit 1)
         )
@@ -1426,7 +1450,7 @@
           (reference "#PWR016") (unit 1)
         )
       )
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "#PWR04") (unit 1)
         )
@@ -1451,15 +1475,15 @@
     )
     (pin "1" (uuid 0ba6abaa-39df-424b-8273-4020f7632fd4))
     (pin "2" (uuid 52fc2b8d-0713-4d7e-9294-54d65c4f551d))
-    (pin "3" (uuid b7184ce0-a454-4344-a945-69e8b5ac64a2))
-    (pin "4" (uuid a8ebb845-75f0-42b6-8e81-7e7e35163231))
+    (pin "3" (uuid b7184ce0-a454-4344-a945-69e8b5ac64a5))
+    (pin "4" (uuid a8ebb845-75f0-42b6-8e81-7e7e35163234))
     (instances
       (project "grbl-shield"
         (path "/77e90144-3b78-438e-a399-7be4aa2ac0a2"
           (reference "SW19") (unit 1)
         )
       )
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "SW2") (unit 1)
         )
@@ -1483,7 +1507,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "arduino-connector"
+      (project "arduino-uno-connector"
         (path "/aa17e073-b1ff-4635-8f9d-ec77bbc3ea39"
           (reference "H3") (unit 1)
         )
