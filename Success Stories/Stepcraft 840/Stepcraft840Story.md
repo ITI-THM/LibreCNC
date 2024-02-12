@@ -15,7 +15,7 @@ But both versions lack the features of an open source project and thats what thi
 
 ## the default board
 
-![stepcraft board](stepcraftBoard.jpg)
+![stepcraft board](./Pictures/stepcraftBoard.jpg)
 
 When ordering a Stepcraft 840, it ships with a commercial board to control the machine. The board features the following things:
 
@@ -48,7 +48,7 @@ Then insert the stepper drivers into a, b and c (and d with dual Y Axis) into th
 The libreCNC Board Version 1.0.1 is specifically designed to fit within the same slot as the commercial stepcraft board.
 It also features almost all peripherals as the commcercial alternative. 
 
-![libreCNC & stepcraft comparision](commercialVSlibreCNC.jpeg)
+![libreCNC & stepcraft comparision](./Pictures/commercialVSlibreCNC.jpeg)
 
 This is how you can connect everything:
 
@@ -121,9 +121,19 @@ If you reached this point: Congratulations! You made your Stepcraft Open Source.
 
 There are a few optional Steps you can do to make your Stepcraft even better
 
+## Optional: Cover
+
+![cover example setup](./Pictures/cover.jpeg)
+
+There are several Covers avaliable within the [cover folder](./Covers/).
+
+You can choose between 3mf files for printing or a 3fd file for altering with fusion360.
+
+You can also find pictures of the different covers within the folder.
+
 ## Optional: Fans
 
-![fan example setup](fans.jpeg)
+![fan example setup](./Pictures/fans.jpeg)
 
 To make sure the stepper drivers are not getting overheated you can use two fans. You can connect the fans to the 5V or 12V output of the periphery board.
 
