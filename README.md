@@ -4,6 +4,8 @@
 
 LibreCNC is a 100% open source circuit board repository for stepper driver powered CNC Machines of any kind. The circuit boards are designed to be modular with documented interfaces in between the boards.
 
+Please check the [Success Stories](./Success%20Stories/) for a reference on how these boards can be used.
+
 ![connected_birdview](images/connected_birdview.png)
 
 ![connected_top](images/connected_top.png)
