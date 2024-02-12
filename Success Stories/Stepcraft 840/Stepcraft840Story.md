@@ -125,7 +125,7 @@ $121 = 25.000    (Y-axis acceleration, mm/sec^2)
 $122 = 25.000    (Z-axis acceleration, mm/sec^2)
 $130 = 600.000    (X-axis maximum travel, millimeters)
 $131 = 840.000    (Y-axis maximum travel, millimeters)
-$132 = 200.000    (Z-axis maximum travel, millimeters)
+$132 = 135.000    (Z-axis maximum travel, millimeters)
 ```
 **WARNING: When wanting to use the machine in negative space make sure $5 and $23 are set to your needs**
 
