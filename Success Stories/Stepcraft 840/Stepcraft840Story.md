@@ -1,5 +1,19 @@
 # Stepcraft 840 V1 Success Story
-## Replacing the original Board with an OpenSource
+**Replacing the original Board with an OpenSource**
+
+- [Stepcraft 840 V1 Success Story](#stepcraft-840-v1-success-story)
+  - [disclaimer](#disclaimer)
+  - [Introduction](#introduction)
+  - [the default board](#the-default-board)
+  - [setting up the libreCNC Board with an arduino UNO](#setting-up-the-librecnc-board-with-an-arduino-uno)
+    - [getting everything together](#getting-everything-together)
+    - [setting up the board](#setting-up-the-board)
+    - [exchanging with the libreCNC Board](#exchanging-with-the-librecnc-board)
+  - [setting up the software](#setting-up-the-software)
+  - [Conclusion](#conclusion)
+  - [Optional: Cover](#optional-cover)
+  - [Optional: Fans](#optional-fans)
+
 
 ## disclaimer
 altering the Stepcraft 840 with this guide is your responsibility. Please take care of all necessary safety measures and be aware that I as the writer take no responsibility for your health or the health of the machine. Please be aware that your own thinking and basic knowledge and understanding is needed for this guide to be successfull. 
@@ -137,4 +151,4 @@ You can also find pictures of the different covers within the folder.
 
 To make sure the stepper drivers are not getting overheated you can use two fans. You can connect the fans to the 5V or 12V output of the periphery board.
 
-To use this fan setup, just print the [fan socket](fanSocket.3mf) and the [lid](fanSocketLid.3mf) or alter the [design](fanSocket.f3d) to your needs.
+To use this fan setup, use the files within the [fan socket](./FanSocket/) folder.
